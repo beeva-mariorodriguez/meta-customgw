@@ -21,7 +21,7 @@ source oe-init-build-env
 ```
 4. add customgw layer to conf/bblayers.conf
 ```sh
-echo 'BBLAYERS_append = " /workdir/poky/meta-customgw"' >> conf/bblayers.conf                                  
+bitbake-layers add-layer /workdir/poky/meta-customgw
 ```
 5. [optional] clone and append raspberrypi bsp layer
 ```sh

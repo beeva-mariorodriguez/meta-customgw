@@ -11,7 +11,7 @@ small custom layer for yocto project (https://yoctoproject.org/)
 git clone git://git.yoctoproject.org/poky -b morty
 cd poky
 ```
-2. clone clustomgw
+2. clone customgw
 ```sh
 git clone https://github.com/beeva-mariorodriguez/meta-customgw
 ```
